@@ -1,0 +1,78 @@
+
+
+/* Shared Style -------------------------------------------     */
+.a-color{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+/* header --------------------------------------------------- */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav Styles  -------------------------------------------    */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+    color: #474747;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/* banner section ------------------------------ */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600 ;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 20px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
